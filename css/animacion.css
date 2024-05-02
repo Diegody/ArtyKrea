@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg_animate{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #dadfdd, #FFFF);
+    position: relative;
+    overflow: auto;
+    
+}
+
+
+/* burbujas */
+
+.burbuja1{
+    border-radius: 50%;
+    background: rgb(19, 179, 237);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja1:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+
+/* ---------------------------------------------  */
+
+.burbuja2{
+    border-radius: 50%;
+    background: rgb(137, 246, 5);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 5s linear infinite ;
+}
+
+.burbuja2:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja3{
+    border-radius: 50%;
+    background: rgb(242, 8, 191);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+
+.burbuja3:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja4{
+    border-radius: 50%;
+    background: rgb(247, 0, 0);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 0s linear infinite ;
+}
+
+.burbuja4:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja5{
+    border-radius: 50%;
+    background: rgb(93, 2, 240);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja5:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja6{
+    border-radius: 50%;
+    background: rgba(234, 255, 0, 0.848);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja6:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja7{
+    border-radius: 50%;
+    background: rgb(0, 255, 187);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja7:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja8{
+    border-radius: 50%;
+    background: rgb(26, 255, 0);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja8:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja9{
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja9:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+/* ---------------------------------------------  */
+
+.burbuja10{
+    border-radius: 50%;
+    background: rgb(25, 1, 241);
+
+    position: absolute;
+    bottom: -150;
+    
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja10:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+    }
+    100%{
+        bottom: 100vh;
+    }
+}
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
